@@ -190,7 +190,7 @@ for score in scores {
 print(failCount) // 1
 
 // 練習2:
-var lowCount = 1
+var lowCount = 0
 for (name, score) in scoreOf {
     if score < 70 {
         print(name)
